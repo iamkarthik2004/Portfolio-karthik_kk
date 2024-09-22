@@ -1,0 +1,79 @@
+/* Style for body */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Changed background color to black */
+    color: white; /* Text color changed to white for contrast */
+}
+
+/* Center container for KARTHIK name */
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: black; /* Keep background black */
+}
+
+.center-container h1 {
+    font-size: 64px;
+    color: white;
+    font-family: 'Gupter', serif; /* Preferred font family */
+}
+
+/* Details section styling */
+.details {
+    padding: 20px;
+    background-color: black; /* Background remains black */
+    text-align: center;
+}
+
+.details h2 {
+    color: white;
+}
+
+.details p {
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+    text-align: justify;
+    color: white;
+}
+
+.details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.details ul li {
+    padding: 8px 0;
+    font-size: 18px;
+    color: white;
+}
+
+/*Glow button nte css ivide aanu ketto*/
+body {
+    background: #1d1f20;
+    text-align: center;
+    padding: 60px;
+    font-family: sans-serif;
+  }
+  
+.button {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgb(255, 136, 0);
+    padding: 15px 40px;
+    border-radius: 4px;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+}
+.glow-button:hover {
+    color: rgb(146, 237, 0);
+    box-shadow: 0 5px 15px rgba(26, 126, 55, 0.4);
+}
+.center-text {
+    text-align: center;
+}
