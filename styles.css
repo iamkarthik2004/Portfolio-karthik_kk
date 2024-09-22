@@ -8,13 +8,13 @@ body {
 }
 
 /* Center container for KARTHIK name */
-.center-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50vh;
-    background-color: black; /* Keep background black */
+.center-container h1 {
+    font-size: 64px;
+    color: white;
+    font-family: 'Gupter', serif; /* Preferred font family */
+    background-color: transparent; /* Make the background transparent */
 }
+
 
 .center-container h1 {
     font-size: 64px;
@@ -60,16 +60,23 @@ body {
     font-family: sans-serif;
   }
   
+
 .button {
-    text-decoration: none;
+    display: inline-block;
+    text-align: center; /* Center the text */
+    width: 150px; /* Set a shorter fixed width */
+    height: 40px; /* Set a shorter fixed height */
+    line-height: 40px; /* Vertically center text */
+    margin-bottom: 15px; /* Space between links */
+    text-decoration: none; /* Remove underline from links */
     color: rgba(255, 255, 255, 0.8);
-    background: rgb(0, 179, 255);
-    padding: 15px 40px;
+    background: rgb(0, 183, 255);
     border-radius: 4px;
     font-weight: normal;
     text-transform: uppercase;
     transition: all 0.2s ease-in-out;
 }
+
 .glow-button:hover {
     color: rgb(0, 0, 0);
     box-shadow: 0 5px 15px rgba(26, 126, 55, 0.4);
@@ -97,4 +104,36 @@ body {
 /* Updated button style with click effect */
 .button.glow-button:active {
     animation: blink-neon 0.8s infinite alternate;
+}
+
+.social-logo {
+    width: 30px; /* Set width as needed */
+    height: auto; /* Maintain aspect ratio */
+    vertical-align: middle; /* Aligns logo with text */
+    margin-right: 10px; /* Space between logo and text */
+}
+
+div {
+    margin-bottom: 15px; /* Space between links */
+}
+
+.button {
+    display: inline-block;
+    text-align: center; /* Center the text */
+    margin-bottom: 15px; /* Space between links */
+}
+
+
+/* Style for the image */
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%; /* Adjust this value to make the image smaller */
+    transition: box-shadow 0.3s ease-in-out; /* Smooth transition for the glow effect */
+}
+
+/* Glow effect when hovering over the image */
+img.center:hover {
+    box-shadow: 0 0 30px rgba(0, 153, 255, 0.8); /* Neon blue glow effect */
 }
