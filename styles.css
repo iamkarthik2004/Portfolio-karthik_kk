@@ -138,5 +138,17 @@ img.center:hover {
     box-shadow: 0 0 30px rgba(0, 153, 255, 0.8); /* Neon blue glow effect */
 }
 
+/* Typing effect style */
+.typing-effect {
+    text-align: center; /* Center the typing effect */
+    margin-top: 20px; /* Space from the logo */
+    z-index: 10; /* Above other content */
+}
+
+/* Optional: Adjust image size */
+.typing-effect img {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+}
 
 
