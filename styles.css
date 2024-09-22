@@ -52,7 +52,7 @@ body {
     color: white;
 }
 
-/*Glow button nte css ivide aanu ketto*/
+/*Glow button*/
 body {
     background: #1d1f20;
     text-align: center;
@@ -76,4 +76,25 @@ body {
 }
 .center-text {
     text-align: center;
+}
+
+
+/* Keyframes for blinking neon light effect */
+@keyframes blink-neon {
+    0%, 100% {
+        box-shadow: 0 0 10px rgba(146, 237, 0, 0.8),
+                    0 0 20px rgba(146, 237, 0, 0.8),
+                    0 0 30px rgba(146, 237, 0, 0.8),
+                    0 0 40px rgba(146, 237, 0, 0.8);
+    }
+    50% {
+        box-shadow: 0 0 5px rgba(0, 201, 237, 0.5),
+                    0 0 10px rgba(146, 237, 0, 0.5),
+                    0 0 15px rgba(146, 237, 0, 0.5);
+    }
+}
+
+/* Updated button style with click effect */
+.button.glow-button:active {
+    animation: blink-neon 0.8s infinite alternate;
 }
