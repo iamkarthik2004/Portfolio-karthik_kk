@@ -52,7 +52,7 @@ body {
     color: white;
 }
 
-/*Glow button*/
+/*Glow Button*/
 body {
     background: #1d1f20;
     text-align: center;
@@ -63,7 +63,7 @@ body {
 .button {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.8);
-    background: rgb(255, 136, 0);
+    background: rgb(0, 179, 255);
     padding: 15px 40px;
     border-radius: 4px;
     font-weight: normal;
@@ -71,7 +71,7 @@ body {
     transition: all 0.2s ease-in-out;
 }
 .glow-button:hover {
-    color: rgb(146, 237, 0);
+    color: rgb(0, 0, 0);
     box-shadow: 0 5px 15px rgba(26, 126, 55, 0.4);
 }
 .center-text {
