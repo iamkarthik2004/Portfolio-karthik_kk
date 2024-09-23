@@ -25,7 +25,7 @@ body {
 /* Details section styling */
 .details {
     padding: 20px;
-    background-color: black; /* Background remains black */
+    background-color: transparent; /* Background remains black */
     text-align: center;
 }
 
